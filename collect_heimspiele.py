@@ -42,6 +42,48 @@ ICS_FEEDS = [
 ]
 
 
+# Manche Wettbewerbe stehen nirgends maschinenlesbar, wohl aber als Liste auf
+# der Vereinsseite. Format dort: "Sa, 05.09.2026 19:30 VfL Fredenbeck - Gegner".
+# Achtung: Die URL ist ein Saison-Artikel und heisst naechstes Jahr anders.
+CLUB_PAGES = [
+    {"url": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-"
+            "in-der-3-liga-nord-west/",
+     "liga": "3. Liga Nord-West", "kategorie": "Herren", "stufe": 1,
+     "heim": "VfL Fredenbeck", "halle": "Fredenbeck, Geestland-Halle",
+     "strasse": "Am M\u00fchlenbeck 2", "plz": "21717", "ort": "Fredenbeck"},
+]
+
+ROW_RE = re.compile(
+    r"^\w+,?\s*(\d{2}\.\d{2}\.\d{4})\s+(\d{1,2}:\d{2})\s+(.+?)\s+[\u2013-]\s+(.+)$")
+
+
+def from_club_page(cfg):
+    """Heimspiele aus einer Spielplan-Liste auf einer Vereinsseite lesen."""
+    soup = BeautifulSoup(fetch(cfg["url"]), "lxml")
+    hlat, hlon, _ = geo(HOME_PLZ)
+    lat, lon, _ = geo(cfg["plz"])
+    out = []
+    for line in soup.get_text("\n", strip=True).split("\n"):
+        m = ROW_RE.match(line.strip())
+        if not m:
+            continue
+        datum, zeit, heim, gast = m.groups()
+        if cfg["heim"].lower() not in heim.lower():
+            continue                      # nur Heimspiele
+        h, mi = zeit.split(":")
+        out.append({
+            "datum": datum, "zeit": f"{int(h):02d}:{mi}", "nr": "",
+            "liga": cfg["liga"], "kategorie": cfg["kategorie"],
+            "stufe": cfg["stufe"], "heim": cfg["heim"], "gast": gast.strip(),
+            "halle": cfg["halle"], "strasse": cfg.get("strasse"),
+            "plz": cfg["plz"], "ort": cfg["ort"],
+            "lat": round(lat, 5), "lon": round(lon, 5),
+            "entfernung_km": round(haversine(hlat, hlon, lat, lon), 1),
+            "quelle": cfg["url"],
+        })
+    return out
+
+
 def from_ics(feed):
     """Heimspiele aus einem ICS-Feed ziehen (handball.net 'Kalender abonnieren')."""
     txt = fetch(feed["url"]).replace("\r\n ", "").replace("\n ", "")
@@ -221,6 +263,19 @@ def main():
                 "quelle": f"{BASE}/groupPage?championship=HVNB+26%2F27&group={gid}",
             })
         time.sleep(0.5)
+
+    for cfg in CLUB_PAGES:
+        try:
+            extra = from_club_page(cfg)
+            if not extra:
+                print(f"  WARNUNG: {cfg['liga']} lieferte 0 Heimspiele "
+                      f"- Seite geaendert? {cfg['url']}", file=sys.stderr)
+            out.extend(extra)
+            print(f"  {cfg['liga']:<22} {len(extra):>3} Heimspiele (Verein)",
+                  file=sys.stderr)
+        except Exception as e:
+            print(f"  Vereinsseite {cfg.get('liga')} fehlgeschlagen: {e}",
+                  file=sys.stderr)
 
     for feed in ICS_FEEDS:
         try:
