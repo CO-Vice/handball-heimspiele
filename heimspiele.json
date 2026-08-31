@@ -36,24 +36,6 @@
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489677"
  },
  {
-  "datum": "05.09.2026",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "Wilhelmshaven",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
- },
- {
   "datum": "06.09.2026",
   "zeit": "16:00",
   "nr": "102006",
@@ -106,24 +88,6 @@
   "lon": 9.6167,
   "entfernung_km": 15.6,
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489677"
- },
- {
-  "datum": "12.09.2026",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "MT Melsungen II",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
  },
  {
   "datum": "13.09.2026",
@@ -324,24 +288,6 @@
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489488"
  },
  {
-  "datum": "03.10.2026",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "TuS Spenge",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
- },
- {
   "datum": "04.10.2026",
   "zeit": "13:00",
   "nr": "22",
@@ -414,24 +360,6 @@
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489670"
  },
  {
-  "datum": "17.10.2026",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "TuS Vinnhorst",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
- },
- {
   "datum": "24.10.2026",
   "zeit": "17:00",
   "nr": "101044",
@@ -502,24 +430,6 @@
   "lon": 9.6167,
   "entfernung_km": 15.6,
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489670"
- },
- {
-  "datum": "31.10.2026",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "HSG Varel",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
  },
  {
   "datum": "01.11.2026",
@@ -630,24 +540,6 @@
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489670"
  },
  {
-  "datum": "07.11.2026",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "Team Lippe II",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
- },
- {
   "datum": "08.11.2026",
   "zeit": "15:00",
   "nr": "35",
@@ -738,24 +630,6 @@
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489670"
  },
  {
-  "datum": "21.11.2026",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "Eintr. Hagen II",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
- },
- {
   "datum": "22.11.2026",
   "zeit": "15:00",
   "nr": "47",
@@ -808,24 +682,6 @@
   "lon": 9.6864,
   "entfernung_km": 11.0,
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489124"
- },
- {
-  "datum": "05.12.2026",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "Ahlener SG",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
  },
  {
   "datum": "06.12.2026",
@@ -916,24 +772,6 @@
   "lon": 9.6167,
   "entfernung_km": 15.6,
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489670"
- },
- {
-  "datum": "12.12.2026",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "OHV Aurich",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
  },
  {
   "datum": "13.12.2026",
@@ -1042,24 +880,6 @@
   "lon": 9.42365,
   "entfernung_km": 13.0,
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489136"
- },
- {
-  "datum": "30.01.2027",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "TSG Bielefeld",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
  },
  {
   "datum": "31.01.2027",
@@ -1186,24 +1006,6 @@
   "lon": 9.44543,
   "entfernung_km": 15.7,
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489488"
- },
- {
-  "datum": "13.02.2027",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "Eintr. Hildesheim",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
  },
  {
   "datum": "14.02.2027",
@@ -1366,24 +1168,6 @@
   "lon": 9.6864,
   "entfernung_km": 11.0,
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489677"
- },
- {
-  "datum": "27.02.2027",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "Großenheidorn",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
  },
  {
   "datum": "07.03.2027",
@@ -1566,24 +1350,6 @@
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489677"
  },
  {
-  "datum": "20.03.2027",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "TSV Anderten",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
- },
- {
   "datum": "21.03.2027",
   "zeit": "17:00",
   "nr": "120",
@@ -1672,24 +1438,6 @@
   "lon": 9.6167,
   "entfernung_km": 15.6,
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489670"
- },
- {
-  "datum": "10.04.2027",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "SF Loxten",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
  },
  {
   "datum": "17.04.2027",
@@ -1834,24 +1582,6 @@
   "lon": 9.6167,
   "entfernung_km": 15.6,
   "quelle": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB+26%2F27&group=489670"
- },
- {
-  "datum": "24.04.2027",
-  "zeit": "19:30",
-  "nr": "",
-  "liga": "3. Liga Nord-West",
-  "kategorie": "Herren",
-  "stufe": 1,
-  "heim": "VfL Fredenbeck",
-  "gast": "ESG Gensungen",
-  "halle": "Fredenbeck, Geestland-Halle",
-  "strasse": "Am Mühlenbeck 2",
-  "plz": "21717",
-  "ort": "Fredenbeck",
-  "lat": 53.56469,
-  "lon": 9.36538,
-  "entfernung_km": 13.0,
-  "quelle": "https://vfl-fredenbeck.de/der-spielplan-fuer-die-saison-2026-27-in-der-3-liga-nord-west/"
  },
  {
   "datum": "01.05.2027",
